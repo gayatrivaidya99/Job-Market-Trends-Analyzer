@@ -18,12 +18,17 @@ End-to-end data pipeline that extracts job listings from an external API, proces
 ##  Project Structure
 
 ├── data_pipeline/
+
 │ ├── 01_ingest_jobs.ipynb # API ingest notebook (Bronze)
+
 │ ├── 02_clean_jobs_silver.ipynb # Cleaning + schema fixes (Silver)
+
 │ └── 03_gold.ipynb # Final Gold table prep
+
 │
 ├── dashboard/
-│ └── JobPostingsDashboard.pbix # Power BI report (Top Hiring, Trend, Map)
+
+│ └── NewProject.pbix # Power BI report (Top Hiring, Trend, Map)
 │
 └── README.md
 
